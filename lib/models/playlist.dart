@@ -9,17 +9,22 @@ class PlaylistProvider extends ChangeNotifier {
         songName: "Spies!",
         artistName: "Epic Games & Murda Beatz",
         albumArtImagePath: 'assets/images/album_artwork_4.jpg',
-        audioPath: "audio/chill.mp3"),
+        audioPath: "audio/S.mp3"),
     Song(
         songName: "Beypnd the flame",
         artistName: "Epic Games",
         albumArtImagePath: 'assets/images/album_artwork_5.png',
-        audioPath: "audio/chill.mp3"),
+        audioPath: "audio/BTF.mp3"),
     Song(
         songName: "Bouncing Back",
         artistName: "Epic Games",
         albumArtImagePath: 'assets/images/album_artwork_6.png',
-        audioPath: "audio/chill.mp3"),
+        audioPath: "audio/BB.mp3"),
+    Song(
+        songName: "Night Rose",
+        artistName: "Epic Games",
+        albumArtImagePath: 'assets/images/album_artwork_7.png',
+        audioPath: "audio/NR.mp3"),
   ];
 
   // current song playing index
