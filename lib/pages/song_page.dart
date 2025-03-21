@@ -31,7 +31,7 @@ class _SongPageState extends State<SongPage> {
         final currentSong = playlist[value.currentSongIndex ?? 0];
 
         return Scaffold(
-          backgroundColor: Theme.of(context).colorScheme.background,
+          backgroundColor: Theme.of(context).colorScheme.surface,
           body: SafeArea(
             child: Padding(
               padding: const EdgeInsets.only(left: 25.0, right: 25, bottom: 25),

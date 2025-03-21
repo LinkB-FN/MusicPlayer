@@ -6,19 +6,19 @@ class PlaylistProvider extends ChangeNotifier {
   // playlist of songs
   final List<Song> _playlist = [
     Song(
-        songName: "So Sick",
-        artistName: "Neyo",
-        albumArtImagePath: 'assets/images/album_artwork_1.png',
+        songName: "Spies!",
+        artistName: "Epic Games & Murda Beatz",
+        albumArtImagePath: 'assets/images/album_artwork_4.jpg',
         audioPath: "audio/chill.mp3"),
     Song(
-        songName: "Acid Rap",
-        artistName: "Chance",
-        albumArtImagePath: 'assets/images/album_artwork_2.png',
+        songName: "Beypnd the flame",
+        artistName: "Epic Games",
+        albumArtImagePath: 'assets/images/album_artwork_5.png',
         audioPath: "audio/chill.mp3"),
     Song(
-        songName: "LSD",
-        artistName: "ASAP Rocky",
-        albumArtImagePath: 'assets/images/album_artwork_3.png',
+        songName: "Bouncing Back",
+        artistName: "Epic Games",
+        albumArtImagePath: 'assets/images/album_artwork_6.png',
         audioPath: "audio/chill.mp3"),
   ];
 

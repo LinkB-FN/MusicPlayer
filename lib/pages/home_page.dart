@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
             title: const Text("P L A Y L I S T"),
           ),
           drawer: const MyDrawer(),
-          backgroundColor: Theme.of(context).colorScheme.background,
+          backgroundColor: Theme.of(context).colorScheme.surface,
           body: ListView.builder(
             itemCount: playlist.length,
             itemBuilder: (context, index) {
